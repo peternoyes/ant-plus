@@ -337,7 +337,7 @@ export class USBDriver extends events.EventEmitter {
 				} catch {
 					// Ignore kernel driver errors;
 				}
-				this.iface.claim();
+				//this.iface.claim();
 				break;
 			} catch {
 				// Ignore the error and try with the next device, if present
